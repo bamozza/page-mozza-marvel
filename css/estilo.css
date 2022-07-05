@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('../img/bg_texture.png');
+}
+
+main {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background: #0067dc;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+}
+
+.area-logo {
+    margin-left: 10%;
+}
+
+.area-logo img {
+    width: 140px;
+}
+
+.menu {
+    margin-right: 10%;
+}
+
+.menu nav ul {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+/* li */
+/* ul li */
+/* .menu nav ul li { */
+/* .menu nav li { */
+.item {
+    display: inline-block;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+.menu nav li:hover {
+    color: #ff2801;
+    border-bottom: 5px solid #ff2801;
+}
+
+.banner {
+    padding-top: 70px;
+    height: 530px;
+    width: 960px;
+    background: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-attachment: fixed;
+    background-position: center 70px;
+}
+
+
+section {
+    background: white;
+}
+
+.titulo {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+
+.history .texto {
+    padding: 25px;
+    text-align: justify;
+}
+
+.history .texto img {
+    width: 150px;
+    padding: 20px;
+    float: right;
+}
+
+.games {
+    background: url('../img/background.jpeg');
+    background-attachment: fixed;
+    background-size: 100%;
+    height: 850px;
+    padding: 20px;
+}
+
+.games .titulo {
+    color: #0067dc;
+    padding: 30px;
+}
+
+.games-texto {
+    /* position: relative; */
+    height: 560px;
+}
+
+.games .texto1,
+.games .texto2,
+.games .texto3,
+.games .texto4 {
+    color: #000;
+    text-align: center;
+    height: auto;
+
+    /* position: absolute; */
+}
+
+.esquerda,
+.direita {
+    display: inline-flex;
+    flex-flow: row wrap;
+    width: 49.7%;
+}
+
+
+.direita {
+    height: 600px;
+    display: inline-flex;
+    align-items: flex-end;
+}
+
+/* .games .texto1 {
+    right: 0;
+}
+
+.games .texto2 {
+    top: 130px;
+    left: 0;
+}
+
+.games .texto3 {
+    top: 280px;
+    right: 0;
+}
+
+.games .texto4 {
+    top: 420px;
+    left: 0;
+} */
+
+
+.texto1 img,
+.texto2 img,
+.texto4 img {
+    width: 50%;
+}
+
+.texto3 img {
+    width: 35%;
+}
+
+footer {
+    height: 380px;
+    background: url('../img/footer.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #4271a8;
+}
